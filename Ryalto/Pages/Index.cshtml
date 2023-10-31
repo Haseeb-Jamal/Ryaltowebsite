@@ -1,0 +1,267 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Ryalto Developer Page</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link img src=" ~ /assets/img/favicon.png" />
+    <link img src=" ~ /assets/img/apple-touch-icon.png" />
+
+    <!-- Google Fonts -->
+    @*<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">*@
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+        @*  <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">*@
+        <!-- ======= Header ======= -->
+        <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+            <div class="container d-flex align-items-center justify-content-between">
+
+
+
+
+
+                <nav id="navbar" class="navbar">
+                    <div class="logo" style="margin:25px 0px 0px 50px">
+                        <img src="/assets/img/ryalto-logo-lg.png" />
+                    </div>
+                    <ul style="margin-left:1250px">
+                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                        <li><a class="nav-link scrollto" href="#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                        <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+                        <li><a class="nav-link scrollto" href="#team">Team</a></li>
+
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+            </div>
+
+        </header><!-- End Header -->
+        <!-- ======= Hero Section ======= -->
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="carousel-container">
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Ryalto</span></h2>
+                <p class="animate__animated fanimate__adeInUp">Flexible and helpful solutions for business collaboration that are adaptable to the changing nature of work. effortlessly with your workforce on the front-line. Connect your people to everything they need for their jobs in one safe, secure, work space. Empower your people with extra shifts, critical information on newsfeeds, surveys and so much more in one powerful platform built for evolution in the workplace.</p>
+            </div>
+        </div>
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+            <defs>
+                <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="wave1">
+                <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)" />
+            </g>
+            <g class="wave2">
+                <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)" />
+            </g>
+            <g class="wave3">
+                <use xlink:href="#wave-path" x="50" y="9" fill="#fff" />
+            </g>
+        </svg>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-out" style="margin-left:20px;">
+                    <h2>About</h2>
+                    <h3>Who we are</h3>
+                    <p style="font-size:small">
+                        Empower everyone with tools they know and prefer to contribute equally, regardless of their location, role, or device.
+                    </p>
+                    <ul>
+                        <li><i class="ri-check-double-line"></i> Ryalto partners with leading organisations with significant frontline workforces including NHS trusts, premier private hospitals, and many more…</li>
+                        <li><i class="ri-check-double-line"></i> For secure communication and connected to each other in an organisation</li>
+                        <li><i class="ri-check-double-line"></i> Engage, communicate and work with confidence.</li>
+                    </ul>
+
+                    <div class="row content">
+                        <div class="col-lg-6">
+                            <p style="font-size:medium">Ryalto - Healthcare and life sciences workspace</p>
+                            <ul>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Engage effortlessly with your workforce on the front-line. Connect your people to everything they need for their jobs in one safe, secure, mobile app. Empower your people with extra shifts, critical information on newsfeeds, surveys and so much more in one powerful platform built for evolution in the workplace.</li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Enhance constituent offerings and group collaboration with a fixed of flexible, steady answers that could interoperate with present client</li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Today we are a team of 20+ Led by CTO Gray Drew and Head Of Client Solutions Jonathon Graham.</li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i>True collaboration means everyone can weigh in equally, no matter where they’re working. Learn more about what hybrid collaboration looks like today — and where it’s going. </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!-- End About Section -->
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title" data-aos="zoom-out" style="margin-left:20px;">
+                    <h2>Services</h2>
+                    <h3>What we do offer</h3>
+                    <p style="font-size:medium">
+                        Custom software development
+                    </p>
+                    <ul>
+                        <li><i class="ri-check-double-line"></i> Ryalto delivers custom software application development services on a technology-agnostic basis, meaning, we handpick technologies for helping you attain your business goals, and not vice versa. We mix inter-industry and inter-technology aptitude to deliver expertise that tackles business issues at tactical, operational, and strategic levels.</li>
+                        <li><i class="ri-check-double-line"></i> Certified business and tech development experts who ensure a business-focused approach.</li>
+                        <li><i class="ri-check-double-line"></i> Regardless of the industry, we build software that does not react to, but prevents cyber security and legal issues.</li>
+                    </ul>
+                    <div class="row content">
+                        <div class="col-lg-6">
+                            <p style="font-size:medium">Technologies</p>
+                            <ul>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Certified AWS, Google, and Azure experts are ready to consult, migrate, and engineer. Avenga offers a wide scope of cloud-based services for those seeking velocity, stability, and security.</li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Render your products and services immune to business disruptions. Beat the competition by automating delivery pipelines, testing, and manual processes to scale opportunities and eliminate threats on the go.</li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Ryalto designs and implements Microsoft solutions that streamline teams’ productivity, coherence, and synergy. Ensure the maximum level of goal-oriented cooperation along your management vertical with the help of Microsoft 365, SharePoint Intranet, and Power Platform.</li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Dive deep into a new realm of digital security with blockchain technology. Experienced blockchain developers at Avenga create decentralized solutions and apps for our clients to ensure enhanced traceability and the security of transactions and data.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Services Section -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+
+                @* <div class="section-title" data-aos="zoom-out">
+                <h2>Portfolio</h2>
+                <p>What we've done</p>
+                </div>*@
+                <div class="section-title" data-aos="zoom-out" style="margin-left:20px;">
+                    <h2>Portfolio</h2>
+                    <h3>What We've Done</h3>
+                    <p style="font-size:medium">
+                        Boost your workforce engagement whilst providing your workers with:
+
+                    </p>
+                    <ul>
+                        <li><i class="ri-check-double-line"></i> Manage All Relevant Resources and Restrictions</li>
+                        <li><i class="ri-check-double-line"></i> Connect Ryalto to your Tools </li>
+                        <li><i class="ri-check-double-line"></i> Develop Reliable Roadmaps</li>
+                    </ul>
+
+                    <div class="row content">
+                        <div class="col-lg-6">
+                            <p style="font-size:medium">Software to coordinate people across teams</p>
+                            <ul>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> We believe that staffing the right people across departments and projects and ensuring they can be productive and happy is the key success factor for any company. And that’s exactly why we developed the Meisterplan software solution.</li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Ryalto puts people at the center of the project portfolio. We combine intuitive and visual capacity planning with the most important features for project portfolio management. Without any frills, we ensure that the right employees are always working on the right topics at the right time. Our goal is that companies can move forward confidently.</li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> For us, people go hand in hand with a successful business. With this mindset, we have built one of the most popular software companies in Germany for employees – with enthusiasm for technology, over 20 years experience and completely self-financed. Our awards with the Great Place to Work® show that our way of working and our cooperation and support for employees are something special. </li>
+                                <li style="text-align : justify"><i class="ri-check-double-line"></i> Solve Your Resource Management Puzzle</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section><!-- End Portfolio Section -->
+        <!-- ======= Team Section ======= -->
+
+        <section id="team" class="team">
+            <div class="container">
+                <div class="section-title" data-aos="zoom-out">
+                    <h2>Team</h2>
+                    <h3>Our Hardworking Team</h3>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="assets/img/team/team-1.jpg">
+                            <img src="assets/img/team/team-1.jpg" alt="Forest" width="600" height="400">
+                        </a>
+                        <div class="desc">Manage Resource Bottlenecks across Projects, Departments, Methodologies</div>
+                    </div>
+                </div>
+
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="assets/img/team/team-2.jpg">
+                            <img src="assets/img/team/team-2.jpg" alt="Forest" width="600" height="400">
+                        </a>
+                        <div class="desc">An Integrated Resource Plan Across Technologies</div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="assets/img/team/team-4.jpg">
+                            <img src="assets/img/team/team-4.jpg" alt="Forest" width="600" height="400">
+                        </a>
+                        <div class="desc">Operational Resource Conflict Resolution</div>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="assets/img/team/team-3.jpg">
+                            <img src="assets/img/team/team-3.jpg" alt="Forest" width="600" height="400">
+                        </a>
+                        <div class="desc">Resource Administration</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br />
+        <br /><br />
+
+        <!-- End Team Section -->
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Ryalto</h3>
+            <p>
+                31 London Bridge Road,  <br>
+                London EC2R 8AY<br>
+                United Kingdom <br><br>
+                <strong>Phone:</strong> +44 020 3051 2444<br>
+                <strong>Website: </strong>https://www.ryaltogroup.com/contact-us<br>
+                <strong>Email:</strong> sales@ryaltogroup.com<br>
+            </p>
+            <div class="copyright">
+                &copy; Copyright <strong><span>Ryalto</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by <a href="">Haseeb</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
